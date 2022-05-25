@@ -249,3 +249,7 @@ document.querySelector('.add-question-close').addEventListener("click", function
 document.querySelector('.add-question-aler-close').addEventListener("click", function(){
     document.querySelector('.add-question-alert').classList.remove('add-question-alert-avtive')
 })
+
+document.querySelector('.change-game').addEventListener("click", function(){
+    document.querySelector('.change-game').classList.toggle('change-game-active');
+})

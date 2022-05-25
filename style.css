@@ -96,7 +96,7 @@ body{
     transition: 0.3s;
 }
 
-.change-game:hover{
+.change-game-active{
     height: auto;
     width: auto;
     transition: 0.3s;
